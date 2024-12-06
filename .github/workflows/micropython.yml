@@ -7,8 +7,8 @@ on:
     types: [created]
 
 env:
-  MICROPYTHON_VERSION: feature/psram-and-wifi
-  MICROPYTHON_FLAVOUR: pimoroni
+  MICROPYTHON_VERSION: patch-psram-clean-wifi
+  MICROPYTHON_FLAVOUR: MichaelBell
   PIMORONI_PICO_VERSION: main
 
 jobs:
